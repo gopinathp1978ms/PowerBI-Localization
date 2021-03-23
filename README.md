@@ -13,11 +13,7 @@ We use external tool called "Tabular editor" [Tabular Editor](https://tabularedi
     <div style="display: inline-block;">
 <code class="language-c">Create a Power BI Empty table “LocalizationTable” to hold measures for chart titles and legends, because some objects (titles & legends) translations should be implemented using DAX formula.</code>
     </div>
-    <div style="display: inline-block;">
-       <code class="language-c">
-       ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/LocalizationTable.PNG)
-           </code>
-    </div>
 </div>
 
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/LocalizationTable.PNG)
 
