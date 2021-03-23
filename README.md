@@ -97,19 +97,19 @@ Key in "English phrases" for every power bi table & measures as like below.
 [ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
 
 ## Step - B DAX expressions.  
-    <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px         dotted #e0e0e0;">
-    <div style="display: inline-block;">
-        <code class="language-c">
-        TitleMakerTrendChart = VAR UserPreferedLanguage =
-            USERCULTURE()   
-        RETURN
-            CALCULATE (
-                SELECTEDVALUE ( LocalizationTable[TranslatedText] ),
-                FILTER ( LocalizationTable, LocalizationTable[LangId] = UserPreferedLanguage ),
-                LocalizationTable[ObjectName] = UserPreferedLanguage & "#TitleMakerTrendChart"
-            )
-        </code>
-            </div>
+<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px         dotted #e0e0e0;">
+<div style="display: inline-block;">
+    <code class="language-c">
+    TitleMakerTrendChart = VAR UserPreferedLanguage =
+        USERCULTURE()   
+    RETURN
+        CALCULATE (
+            SELECTEDVALUE ( LocalizationTable[TranslatedText] ),
+            FILTER ( LocalizationTable, LocalizationTable[LangId] = UserPreferedLanguage ),
+            LocalizationTable[ObjectName] = UserPreferedLanguage & "#TitleMakerTrendChart"
+        )
+    </code>
         </div>
+    </div>
 
  
