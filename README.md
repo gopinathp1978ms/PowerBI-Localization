@@ -73,7 +73,12 @@ Key in "English phrases" for every power bi table & measures as like below.
  
     Verify imported translations
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Imported.PNG)
-    
+
+# Step 7 Applying translations to PBI Objects.
+
+## Simple tiles: Use measure/ table property as indicated
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Tile.PNG)
+
     
     
 
