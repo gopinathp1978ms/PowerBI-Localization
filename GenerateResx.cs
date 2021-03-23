@@ -2,13 +2,13 @@ using System.Collections;
 using System.ComponentModel.Design;
 using System.Resources;
 
-var CategoryName = "TenantLevelAppAdmin";
-var ReportName = "MakerActivity.Pbix";
+var CategoryName = "<<CategoryName>>";
+var ReportName = "Report1.Pbix";
 //en-US hashtable to copy all keys to regional resource files
 Hashtable resourceEntries_US = new Hashtable();
 
 foreach(var modelLanguage in Model.Cultures) {
-    var resxFilename = @"C:\gopip\pp\Admin-Analytics\1023\PowerPlatformAdminAnalytics\Dashboards\PbixLocalization\Resources\" + modelLanguage.Name + ".resx";
+    var resxFilename = @"C:\..\PbixLocalization\Resources\" + modelLanguage.Name + ".resx";
     
     // Reading existing keys to do update
     Hashtable resourceEntries = new Hashtable();
@@ -113,3 +113,4 @@ foreach(var modelLanguage in Model.Cultures) {
                 }
         }
 }
+"Resx files are generated".Output();
