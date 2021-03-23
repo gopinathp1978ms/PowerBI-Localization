@@ -32,8 +32,9 @@ Key in "English phrases" for every power bi table & measures as like below.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/en-USSeed.PNG)
 
 # Step 4 Generate Localization .resx files.
-    Leverage attached below scripts to generate the .resx files after modifying the report name and resx folder name as appropriate.  
-    We use "Folder Name" and "Report Name" parameters to distinguish the localization keys in the same file.
+    Leverage attached below scripts to generate the .resx files after modifying the report name and resx 
+    folder name as appropriate.  We use "Folder Name" and "Report Name" parameters to distinguish the 
+    localization keys in the same file.
     
  ## script
  [GenerateResx.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/56287ea36df16bab1c0275dc5787e06914e76e27/GenerateResx.cs)
