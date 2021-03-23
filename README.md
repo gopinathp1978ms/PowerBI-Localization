@@ -117,7 +117,8 @@ Key in "English phrases" for every power bi table & measures as like below.
 # Verify on PBIE
     Publish the PBIX to a Premium PBI workspace (not the Power BI Premium sku). Verification can be 2 ways as below:
     1.	By changing the language of the browser. 
-    2.	By using the embedded URL, by adding “&language=languageCode&formatlocale= languageCode” at the end. languageCode is the language we want to display, say en-US, ja-JP, de-DE etc. 
+    2.	By using the embedded URL, by adding “&language=languageCode&formatlocale= languageCode” at the end. languageCode is the language we want to display, 
+    say en-US, ja-JP, de-DE etc. 
     Say https://app.powerbi.com/reportEmbed?reportId=e5f7e55d-0934-4ad8-8eb1-be40693ed5bf&autoAuth=true&ctid=b3b8586a-63b1-46d8-a96d-831495d8a757&config=eyJjbHVzdGVyVXJsIWx5c2lzLndpbmRvd3MubmV0LyJ9&filter=LocalizationLanguageLocale%2FLanguageLocale%20eq%20%27en-US%27&language=en-US&formatlocale=en-US
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Embed.PNG) 
