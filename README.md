@@ -53,8 +53,8 @@ Key in "English phrases" for every power bi table & measures as like below.
     
     Verify .resx files [Important don’t modify the columns Name & Comment because the name column holds schema object name, and the comments holds conventional long resource name delimited by “#” to load the translated string back to power bi reports. This convention we followed to keep the single resx file to hold multiple dashboards resource strings.] 
     
-    ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/ResxFormat.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/ResxFormat.PNG)
     
-# Step 5 Generate Localization .resx files.
+# Step 5 Send Localization .resx files.
  
     
