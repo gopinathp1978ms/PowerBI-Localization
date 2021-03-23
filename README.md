@@ -48,19 +48,22 @@ Key in "English phrases" for every power bi table & measures as like below.
 
 # Step 4 Generate Localization .resx files.
     Leverage attached below scripts to generate the .resx files after modifying the report name and resx folder name as appropriate.  Mostly folder name should be your cloned directory to enable you to raise pull request.
+    
     <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
     <div style="display: inline-block;">
-<code class="language-c">using System.Collections;
+<code class="language-c">
+    using System.Collections;
 using System.ComponentModel.Design;
 using System.Resources;
-
 var CategoryName = "TenantLevelAppAdmin";
 var ReportName = "MakerActivity.Pbix";
+
 //en-US hashtable to copy all keys to regional resource files
+
 Hashtable resourceEntries_US = new Hashtable();
 
 foreach(var modelLanguage in Model.Cultures) {
-    var resxFilename = @"C:\gopip\pp\Admin-Analytics\1023\PowerPlatformAdminAnalytics\Dashboards\PbixLocalization\Resources\" + modelLanguage.Name + ".resx";
+    var resxFilename = @"C:\..\PbixLocalization\Resources\" + modelLanguage.Name + ".resx";
     
     // Reading existing keys to do update
     Hashtable resourceEntries = new Hashtable();
