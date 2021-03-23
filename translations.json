@@ -1,0 +1,139 @@
+{
+  "cultures": [
+    {
+      "name": "en-US"
+    },
+    {
+      "name": "ar-SA"
+    },
+    {
+      "name": "bg-BG"
+    },
+    {
+      "name": "ca-ES"
+    },
+    {
+      "name": "cs-CZ"
+    },
+    {
+      "name": "da-DK"
+    },
+    {
+      "name": "de-DE"
+    },
+    {
+      "name": "el-GR"
+    },
+    {
+      "name": "es-ES"
+    },
+    {
+      "name": "et-EE"
+    },
+    {
+      "name": "eu-ES"
+    },
+    {
+      "name": "fi-FI"
+    },
+    {
+      "name": "fr-FR"
+    },
+    {
+      "name": "gl-ES"
+    },
+    {
+      "name": "he-IL"
+    },
+    {
+      "name": "hi-IN"
+    },
+    {
+      "name": "hr-HR"
+    },
+    {
+      "name": "hu-HU"
+    },
+    {
+      "name": "id-ID"
+    },
+    {
+      "name": "it-IT"
+    },
+    {
+      "name": "ja-JP"
+    },
+    {
+      "name": "kk-KZ"
+    },
+    {
+      "name": "ko-KR"
+    },
+    {
+      "name": "lt-LT"
+    },
+    {
+      "name": "lv-LV"
+    },
+    {
+      "name": "ms-MY"
+    },
+    {
+      "name": "nb-NO"
+    },
+    {
+      "name": "nl-NL"
+    },
+    {
+      "name": "pl-PL"
+    },
+    {
+      "name": "pt-BR"
+    },
+    {
+      "name": "pt-PT"
+    },
+    {
+      "name": "ro-RO"
+    },
+    {
+      "name": "ru-RU"
+    },
+    {
+      "name": "sk-SK"
+    },
+    {
+      "name": "sl-SI"
+    },
+    {
+      "name": "sr-Cyrl-RS"
+    },
+    {
+      "name": "sr-Latn-RS"
+    },
+    {
+      "name": "sv-SE"
+    },
+    {
+      "name": "th-TH"
+    },
+    {
+      "name": "tr-TR"
+    },
+    {
+      "name": "uk-UA"
+    },
+    {
+      "name": "vi-VN"
+    },
+    {
+      "name": "zh-CN"
+    },
+    {
+      "name": "zh-HK"
+    },
+    {
+      "name": "zh-TW"
+    }
+  ]
+}
