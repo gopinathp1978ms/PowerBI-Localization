@@ -15,7 +15,7 @@ We use external tool called "Tabular editor" [Tabular Editor](https://tabularedi
     </div>
     <div style="display: inline-block;">
        <code class="language-c">
-       ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Flow.PNG)
+       ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f6e9cb286bcae479be1598f86cbffe76cc7fb010/LocalizationTable.PNG)
            </code>
     </div>
 </div>
