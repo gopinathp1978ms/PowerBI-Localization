@@ -5,7 +5,7 @@ using System.Resources;
 
 var CategoryName = "PowerAppsAdmin";
 var ReportName ="DailyUsage.Pbix";
-var Translated_filefolder = @"C:\gopip\pp\Admin-Analytics\1023\PowerPlatformAdminAnalytics\Dashboards\PbixLocalization\Resources\";
+var Translated_filefolder = @"C:\..\Dashboards\PbixLocalization\Resources\";
 
 List<string> langs = new List<string>();
 var langFiles = Directory.GetFiles(Translated_filefolder);
