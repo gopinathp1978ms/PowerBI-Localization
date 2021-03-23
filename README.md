@@ -98,10 +98,7 @@ Key in "English phrases" for every power bi table & measures as like below.
 [ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
 
 ## Step - B DAX expressions.  
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; 
-column-rule: 1px         dotted #e0e0e0;">
-<div style="display: inline-block;">
-<code class="language-c">
+
 TitleMakerTrendChart = VAR UserPreferedLanguage =
 USERCULTURE()   
 RETURN
@@ -110,20 +107,17 @@ SELECTEDVALUE ( LocalizationTable[TranslatedText] ),
 FILTER ( LocalizationTable, LocalizationTable[LangId] = UserPreferedLanguage ),
 LocalizationTable[ObjectName] = UserPreferedLanguage & "#TitleMakerTrendChart"
 )
-</code>
-</div>
-</div>
 
 ## Step - C Chart title configuration.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Title.PNG)
 
 # Verify on PBIE
-    Publish the PBIX to a Premium PBI workspace (not the Power BI Premium sku). Verification can be 2 ways as below:
-    1.	By changing the language of the browser. 
-    2.	By using the embedded URL, by adding “&language=languageCode&formatlocale= languageCode” at the end. languageCode is the language we want to display, 
-    say en-US, ja-JP, de-DE etc. 
-    Say https://app.powerbi.com/reportEmbed?reportId=e5f7e55d-0934-4ad8-8eb1-be40693ed5bf&autoAuth=true&ctid=b3b8586a-63b1-46d8-a96d-831495d8a757&config=eyJjbHVzdGVyVXJsIWx5c2lzLndpbmRvd3MubmV0LyJ9&filter=LocalizationLanguageLocale%2FLanguageLocale%20eq%20%27en-US%27
-&language=en-US&formatlocale=en-US
+Publish the PBIX to a Premium PBI workspace (not the Power BI Premium sku). 
+Verification can be 2 ways as below:
+1.	By changing the browser language.
+2.	By using the embedded URL, by adding “&language=languageCode&formatlocale= languageCode” at the end. 
+languageCode is the language we want to display, say en-US, ja-JP, de-DE etc. 
+ex: https://app.powerbi.com/reportEmbed?reportId=e5f7e55d-0934-4ad8-8eb1-be40693ed5bf&autoAuth=true&ctid=b3b8586a-63b1-46d8-a96d-831495d8a757&config=eyJjbHVzdGVyVXJsIWx5c2lzLndpbmRvd3MubmV0LyJ9&filter=LocalizationLanguageLocale%2FLanguageLocale%20eq%20%27en-US%27&language=en-US&formatlocale=en-US
 
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Embed.PNG) 
