@@ -112,7 +112,7 @@ LocalizationTable[ObjectName] = UserPreferedLanguage & "#TitleMakerTrendChart"
 ## Step - C Chart title configuration.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Title.PNG)
 
-# Verify on PBIE
+# Verify on Power BI Embedded Solution.
 Publish the PBIX to a Premium PBI workspace (not the Power BI Premium sku). 
 Verification can be 2 ways as below:
 1.	By changing the browser language.
