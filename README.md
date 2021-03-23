@@ -76,9 +76,12 @@ Key in "English phrases" for every power bi table & measures as like below.
 
 # Step 7 Applying translations to PBI Objects.
 
-## Simple tiles: Use measure/ table property as indicated
+## Simple tiles
+    Use measure/ table property as indicated
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Tile.PNG)
 
-    
+## Grid Headers 
+    Use table property/field as it is, dont format after dropping the property or fields.     
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Grid.PNG)
     
 
