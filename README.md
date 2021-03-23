@@ -91,7 +91,8 @@ Key in "English phrases" for every power bi table & measures as like below.
     Expression-based title for all type of charts. Expression formula works against data , so we should push all localized data into the power bi table. 
     We could use the same “LocalizationTable” table created for the localization purpose.
     
-## Step - A Attached script will help you to extract the conventional titles and legends into an another resource file “globaltitleandlegend.resx”, so that it could be easily copiable from VS editor to Power BI table editor by using universal  copy/paste shortcuts.
+## Step - A Extract Title Keys to Power BI Localization Data Table
+    Attached script will help you to extract the conventional titles and legends into an another resource file “globaltitleandlegend.resx”, so that it could be easily copiable from VS editor to Power BI table editor by using universal  copy/paste shortcuts.
     
 [ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
 
@@ -119,6 +120,8 @@ Key in "English phrases" for every power bi table & measures as like below.
     1.	By changing the language of the browser. 
     2.	By using the embedded URL, by adding “&language=languageCode&formatlocale= languageCode” at the end. languageCode is the language we want to display, 
     say en-US, ja-JP, de-DE etc. 
-    Say https://app.powerbi.com/reportEmbed?reportId=e5f7e55d-0934-4ad8-8eb1-be40693ed5bf&autoAuth=true&ctid=b3b8586a-63b1-46d8-a96d-831495d8a757&config=eyJjbHVzdGVyVXJsIWx5c2lzLndpbmRvd3MubmV0LyJ9&filter=LocalizationLanguageLocale%2FLanguageLocale%20eq%20%27en-US%27&language=en-US&formatlocale=en-US
+    Say https://app.powerbi.com/reportEmbed?reportId=e5f7e55d-0934-4ad8-8eb1-be40693ed5bf&autoAuth=true&ctid=b3b8586a-63b1-46d8-a96d-831495d8a757&config=eyJjbHVzdGVyVXJsIWx5c2lzLndpbmRvd3MubmV0LyJ9&filter=LocalizationLanguageLocale%2FLanguageLocale%20eq%20%27en-US%27
+&language=en-US&formatlocale=en-US
+
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Embed.PNG) 
