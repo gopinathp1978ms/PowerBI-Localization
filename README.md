@@ -40,8 +40,9 @@ Key in "English phrases" for every power bi table & measures as like below.
  [GenerateResx.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/56287ea36df16bab1c0275dc5787e06914e76e27/GenerateResx.cs)
     
     
-    Verify .resx files [Important don’t modify the columns Name & Comment because the name column holds schema object name, and the 
-    comments holds conventional long resource name delimited by “#” to load the translated string back to power bi reports. 
+    Verify .resx files in the mentioned folder in the generate script.[Important don’t modify the columns Name & Comment because the 
+    name column holds schema object name, and the comments holds conventional long resource name delimited by “#” to load 
+    the translated string back to power bi reports. 
     This convention we followed to keep the single resx file to hold multiple dashboards resource strings.] 
     
 
@@ -55,7 +56,8 @@ Key in "English phrases" for every power bi table & measures as like below.
 # Step 6 Import "translated resx" files.
  
     Generated .resx files can be kept in Azure devops for versioning & coordination with external localization teams.
-    Consider changing the highlighted variables “Reportname, foldername” before running the script through advance scripting.
+    Consider changing the highlighted variables “Reportname, foldername” before running the script through 
+    advance scripting.
  
   ## script
  [Importtranslations.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/56287ea36df16bab1c0275dc5787e06914e76e27/Importtranslations.cs)
@@ -77,13 +79,14 @@ Key in "English phrases" for every power bi table & measures as like below.
    Use table property/field as it is, dont format after dropping the property or fields.     
 
 ## Chart Titles.
-    Expression-based title for all type of charts. Expression formula works against data , so we should push all localized data 
-    into the power bi table. We could use the same “LocalizationTable” table created for the localization purpose.
+    Expression-based title for all type of charts. Expression formula works against data , so we should push all 
+    localized data into the power bi table. We could use the same “LocalizationTable” 
+    table created for the localization purpose.
     
 ## Step - A Extract Title Keys to Power BI Localization Data Table
     Attached script will help you to extract the conventional titles and legends into an another 
-    resource file “globaltitleandlegend.resx”,     so that it could be easily copiable from VS editor to Power BI table editor 
-    by using universal  copy/paste shortcuts.
+    resource file “globaltitleandlegend.resx”,     so that it could be easily copiable from VS editor 
+    to Power BI table editor by using universal  copy/paste shortcuts.
 
  ## script
 [ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
