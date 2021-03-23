@@ -1,4 +1,4 @@
-# Power BI dashboards Localizzation is now simple as like Web Resource Files. !!!
+# Power BI dashboards Localizzation is now simple as like Localizing Web Resource Files. !!!
 
 We use external tool called "Tabular editor" [Tabular Editor](https://tabulareditor.com/) to localize Power BI Chart titles, legends,  chart series, etc.  
 
@@ -129,4 +129,4 @@ Key in "English phrases" for every power bi table & measures as like below.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Embed.PNG) 
 
 
-# Power BI dashboards Localizzation is now simple as like Web Resource Files. !!!
+# Power BI dashboards Localizzation is now simple as like Localizing Web Resource Files. !!!
