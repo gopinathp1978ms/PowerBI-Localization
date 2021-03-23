@@ -19,7 +19,7 @@ We use external tool called "Tabular editor" [Tabular Editor](https://tabularedi
 # Step 2 Add Languages.
 Using "Import Translations" option we could add bulk langauges.
 
-[languages.json](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
+[languages.json](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/151806907d072fa69868c6e88a0182fbbafd5406/languages.json)
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/AddLanguages.PNG)
 
