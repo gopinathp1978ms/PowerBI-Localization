@@ -51,7 +51,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     
     <div style="display: inline-block;">
 <code class="language-c">
-    https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/en-USSeed.PNG
+    https://github.com/gopinathp1978ms/PowerBI-Localization/blob/GenerateResx.cs
         </code>
     </div>
 
