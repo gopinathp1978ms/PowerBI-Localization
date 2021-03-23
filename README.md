@@ -35,6 +35,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     Leverage attached below scripts to generate the .resx files after modifying the report name and resx folder name as appropriate.  
     We use "Folder Name" and "Report Name" parameters to distinguish the localization keys in the same file.
     
+ ## script
  [GenerateResx.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/56287ea36df16bab1c0275dc5787e06914e76e27/GenerateResx.cs)
     
     
@@ -54,7 +55,8 @@ Key in "English phrases" for every power bi table & measures as like below.
  
     Generated .resx files can be kept in Azure devops for versioning & coordination with external localization teams.
     Consider changing the highlighted variables “Reportname, foldername” before running the script through advance scripting.
-    
+ 
+  ## script
  [Importtranslations.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/56287ea36df16bab1c0275dc5787e06914e76e27/Importtranslations.cs)
  
     Verify imported translations
@@ -81,7 +83,8 @@ Key in "English phrases" for every power bi table & measures as like below.
     Attached script will help you to extract the conventional titles and legends into an another 
     resource file “globaltitleandlegend.resx”,     so that it could be easily copiable from VS editor to Power BI table editor 
     by using universal  copy/paste shortcuts.
-    
+
+ ## script
 [ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
 
 ## Step - B DAX expressions.  
