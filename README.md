@@ -17,3 +17,6 @@ We use external tool called "Tabular editor" [Tabular Editor](https://tabularedi
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/LocalizationTable.PNG)
 
+# Step 2 Add Languages.
+
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/AddLanguages.PNG)
