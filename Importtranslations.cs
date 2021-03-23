@@ -3,7 +3,7 @@ using System.ComponentModel.Design;
 using System.IO;
 using System.Resources;
 
-var CategoryName = "PowerAppsAdmin";
+var CategoryName = "<<CategoryName>>";
 var ReportName ="DailyUsage.Pbix";
 var Translated_filefolder = @"C:\..\Dashboards\PbixLocalization\Resources\";
 
