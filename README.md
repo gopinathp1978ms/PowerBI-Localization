@@ -22,11 +22,6 @@ Using "Import Translations" option we could add bulk langauges.
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/AddLanguages.PNG)
 
-# Step 2 Add Languages.
-Using "Import Translations" option we could add bulk langauges.
-
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/AddLanguages.PNG)
-
 <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
     <div style="display: inline-block;">
 <code class="language-c">{
@@ -45,3 +40,8 @@ Using "Import Translations" option we could add bulk langauges.
         </code>
     </div>
 </div>
+
+# Step 3 Key-in en-US seeds.
+Key in "English phrases" for every power bi table & measures as like below. 
+
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/en-USSeed.PNG)
