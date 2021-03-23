@@ -38,4 +38,4 @@ foreach (var modelLanguage in langs)
          }
     }
 }
-"All Language files are imported"
+"All Language files are imported".Output();
