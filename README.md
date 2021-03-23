@@ -49,7 +49,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     Leverage attached below scripts to generate the .resx files after modifying the report name and resx folder name as appropriate.  
     We use "Folder Name" and "Report Name" parameters to distinguish the localization keys in the same file.
     
-    https://github.com/gopinathp1978ms/PowerBI-Localization/blob/GenerateResx.cs
+    [GenerateResx.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/GenerateResx.cs)
     
     Verify .resx files [Important don’t modify the columns Name & Comment because the name column holds schema object name, and the 
     comments holds conventional long resource name delimited by “#” to load the translated string back to power bi reports. 
@@ -66,6 +66,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     Generated .resx files can be kept in Azure devops for versioning & coordination with external localization teams.
     Consider changing the highlighted variables “Reportname, foldername” before running the script through advance scripting.
     
-    https://github.com/gopinathp1978ms/PowerBI-Localization/blob/importtranslations.cs
+    [Importtranslations.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/Importtranslations.cs)
+    
     
 
