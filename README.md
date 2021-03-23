@@ -9,11 +9,10 @@ We use external tool called "Tabular editor" [Tabular Editor](https://tabularedi
 
 # Step 1 Add Power BI Data Table.
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
+
     <div style="display: inline-block;">
 <code class="language-c">Create a Power BI Empty table “LocalizationTable” to hold measures for chart titles and legends, because some objects (titles & legends) translations should be implemented using DAX formula.</code>
     </div>
-</div>
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/LocalizationTable.PNG)
 
@@ -49,7 +48,6 @@ Key in "English phrases" for every power bi table & measures as like below.
 # Step 4 Generate Localization .resx files.
     Leverage attached below scripts to generate the .resx files after modifying the report name and resx folder name as appropriate.  Mostly folder name should be your cloned directory to enable you to raise pull request.
     
-    <div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
     <div style="display: inline-block;">
 <code class="language-c">
     using System.Collections;
@@ -171,6 +169,5 @@ foreach(var modelLanguage in Model.Cultures) {
 
         </code>
     </div>
-</div>
 
     
