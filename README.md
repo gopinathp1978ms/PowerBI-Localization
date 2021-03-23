@@ -21,6 +21,7 @@ Using "Import Translations" option we could add bulk langauges or manually add i
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/AddLang.PNG)
 
+## Bulk language Import 
 [languages.json](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/151806907d072fa69868c6e88a0182fbbafd5406/languages.json)
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/AddLanguages.PNG)
