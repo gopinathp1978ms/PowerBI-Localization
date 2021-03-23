@@ -51,13 +51,14 @@ Key in "English phrases" for every power bi table & measures as like below.
 
 # Step 5 Send Localization .resx files.
  
-    Generated .resx files can be kept in Azure devops for versioning & coordination with external localization teams. 
+    Generated .resx files can be kept in Azure devops for versioning & coordination with external 
+    localization teams. 
 
 # Step 6 Import "translated resx" files.
  
-    Generated .resx files can be kept in Azure devops for versioning & coordination with external localization teams.
-    Consider changing the highlighted variables “Reportname, foldername” before running the script through 
-    advance scripting.
+    Generated .resx files can be kept in Azure devops for versioning & coordination with external 
+    localization teams. Consider changing the highlighted variables “Reportname, foldername” 
+    before running the script through advance scripting.
  
   ## script
  [Importtranslations.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/56287ea36df16bab1c0275dc5787e06914e76e27/Importtranslations.cs)
