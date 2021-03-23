@@ -92,8 +92,9 @@ Key in "English phrases" for every power bi table & measures as like below.
     into the power bi table. We could use the same “LocalizationTable” table created for the localization purpose.
     
 ## Step - A Extract Title Keys to Power BI Localization Data Table
-    Attached script will help you to extract the conventional titles and legends into an another resource file “globaltitleandlegend.resx”, 
-    so that it could be easily copiable from VS editor to Power BI table editor by using universal  copy/paste shortcuts.
+    Attached script will help you to extract the conventional titles and legends into an another 
+    resource file “globaltitleandlegend.resx”,     so that it could be easily copiable from VS editor to Power BI table editor 
+    by using universal  copy/paste shortcuts.
     
 [ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
 
