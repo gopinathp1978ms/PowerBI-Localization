@@ -84,7 +84,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     Expression formula works against data , so we should push all title keys  
     into the power bi table. We could use the same 
     “LocalizationTable” table created for the localization purpose.
-    Below steps "A"-"C" will help you to extract easily and paste it to power bi data table. 
+    Use steps "A"-"C" to extract title keys and paste it to power bi data table. 
     
 ## Step - A Extract Title Keys to Power BI Localization Data Table
     Attached script will help you to extract the conventional titles and legends into an another 
