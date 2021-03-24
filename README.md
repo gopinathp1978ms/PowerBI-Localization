@@ -37,7 +37,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     localization keys in the same file.
     
  ## script
- [GenerateResx.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/56287ea36df16bab1c0275dc5787e06914e76e27/GenerateResx.cs)
+ [GenerateResx.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/GenerateResx.cs)
     
     
     Verify .resx files in the mentioned folder in the generate script.[Important don’t modify the columns 
@@ -61,7 +61,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     before running the script through advance scripting.
  
   ## script
- [Importtranslations.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/56287ea36df16bab1c0275dc5787e06914e76e27/Importtranslations.cs)
+ [Importtranslations.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Importtranslations.cs)
  
     Verify imported translations
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Imported.PNG)
@@ -93,7 +93,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     to Power BI table editor by using universal  copy/paste shortcuts.
 
  ## script
-[ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/aa3bd97421e675e30a4a9d76ba3f6aa1564e0979/ExtractLegendAndTitle.cs)
+[ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/ExtractLegendAndTitle.cs)
 
 ## Step - B Open extracted Resx file "titleandlegend.resx" in visualstudio to copy the table.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/5e5319df1e18bebab1632fcdff6b5e3028978daa/ExtractedTitle.png)
