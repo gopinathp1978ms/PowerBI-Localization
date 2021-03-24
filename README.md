@@ -96,7 +96,7 @@ Key in "English phrases" for every power bi table & measures as like below.
 [ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
 
 ## Step - B Open extracted Resx file "titleandlegend.resx" in visualstudio to copy the table.
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/ExtractedTitle.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/5e5319df1e18bebab1632fcdff6b5e3028978daa/ExtractedTitle.png)
 
 ## Step - B DAX expressions.  
 
