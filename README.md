@@ -105,7 +105,7 @@ Ensure table column names are as highhighted so that Step-D DAX expression works
 
 ## Step - D Ensure DAX expressions for all title measure as like below.  
 
-<TitleMeasureName> = VAR UserPreferedLanguage =
+#TitleMeasureName = VAR UserPreferedLanguage =
 USERCULTURE()   
 RETURN
 CALCULATE (
