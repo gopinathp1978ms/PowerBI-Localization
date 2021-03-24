@@ -99,21 +99,22 @@ Key in "English phrases" for every power bi table & measures as like below.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/5e5319df1e18bebab1632fcdff6b5e3028978daa/ExtractedTitle.png)
 
 ## Step - C Copy the Clipboard data to Power BI Table "LocalizationTable".
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/5e5319df1e18bebab1632fcdff6b5e3028978daa/CopyTable.png)
+Ensure table column names are as highhighted so that Step-D DAX expression works without much changes.
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/92d762995486bff9d40e0ca314f5f4690efd8b7a/CopyTable.PNG)
 
 
-## Step - B DAX expressions.  
+## Step - D Ensure DAX expressions for all title measure as like below.  
 
-TitleMakerTrendChart = VAR UserPreferedLanguage =
+<TitleMeasureName> = VAR UserPreferedLanguage =
 USERCULTURE()   
 RETURN
 CALCULATE (
 SELECTEDVALUE ( LocalizationTable[TranslatedText] ),
 FILTER ( LocalizationTable, LocalizationTable[LangId] = UserPreferedLanguage ),
-LocalizationTable[ObjectName] = UserPreferedLanguage & "#TitleMakerTrendChart"
+LocalizationTable[ObjectName] = UserPreferedLanguage & "#TitleMeasureName"
 )
 
-## Step - C Chart title configuration.
+## Step - E Chart title configuration.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Title.PNG)
 
 # Verify on Power BI Embedded Solution.
