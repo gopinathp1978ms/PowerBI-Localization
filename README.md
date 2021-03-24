@@ -93,7 +93,7 @@ Key in "English phrases" for every power bi table & measures as like below.
     to Power BI table editor by using universal  copy/paste shortcuts.
 
  ## script
-[ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/f7142054be4b6cd18ce90cc7b31cf7215e2fd5c7/ExtractLegendAndTitle.cs)
+[ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/aa3bd97421e675e30a4a9d76ba3f6aa1564e0979/ExtractLegendAndTitle.cs)
 
 ## Step - B Open extracted Resx file "titleandlegend.resx" in visualstudio to copy the table.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/5e5319df1e18bebab1632fcdff6b5e3028978daa/ExtractedTitle.png)
