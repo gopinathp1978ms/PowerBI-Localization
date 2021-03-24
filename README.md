@@ -98,6 +98,10 @@ Key in "English phrases" for every power bi table & measures as like below.
 ## Step - B Open extracted Resx file "titleandlegend.resx" in visualstudio to copy the table.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/5e5319df1e18bebab1632fcdff6b5e3028978daa/ExtractedTitle.png)
 
+## Step - C Copy the Clipboard data to Power BI Table "LocalizationTable".
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/5e5319df1e18bebab1632fcdff6b5e3028978daa/CopyTable.png)
+
+
 ## Step - B DAX expressions.  
 
 TitleMakerTrendChart = VAR UserPreferedLanguage =
