@@ -1,6 +1,6 @@
 # Power BI Localization is now simple as like Localizing Web Resource Files. !!!
 
-We use external tool called "Tabular editor" [Tabular Editor](https://tabulareditor.com/) to localize Power BI Chart titles, legends,  chart series, etc.  
+We use external tool called  [Tabular Editor](https://tabulareditor.com/) is to localize Power BI Chart titles, legends,  chart series, etc.  
 
 
 # Steps
