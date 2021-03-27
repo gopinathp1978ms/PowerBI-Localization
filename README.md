@@ -129,4 +129,8 @@ ex: https://app.powerbi.com/reportEmbed?reportId=e5f7e55d-0934-4ad8-8eb1-be40693
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Embed.PNG) 
 
 
+# Locallization result.
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/Result.PNG) 
+
+
 # Power BI dashboards Localization is now simple as like Localizing Web Resource Files. !!!
