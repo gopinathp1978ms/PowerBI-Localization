@@ -4,7 +4,7 @@ We use an external tool called  [Tabular Editor](https://tabulareditor.com/) to 
 
 After installing you should see the Tabular Editor tab in the External Tools menu.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/TabularEditorView.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/TabularEditorView.png)
 
 # Steps Overview
 
@@ -20,7 +20,7 @@ After installing you should see the Tabular Editor tab in the External Tools men
 
 To create a new empty table click on the Create Table option in the Home menu of your Power BI Desktop. In the Create Table dialog box type in the name of your table in the Name field, for example "LocalizationTable", and then click on the Load button.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/CreateTable.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/CreateTable.png)
 
 # Step 2 Add Languages
 You can add languages individually via the New Translation option in Tabular Editor.  Right click on the Translations model and select the New Translation drop down option.  
@@ -29,7 +29,7 @@ You can add languages individually via the New Translation option in Tabular Edi
 
 Select your desired culture in the Select Culture dialog and click OK.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/SelectCulture.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/SelectCulture.png)
 
 ## Bulk language Import 
 To add many languages at one time use a file like [languages.json](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/151806907d072fa69868c6e88a0182fbbafd5406/languages.json) via the Import Translations... option from the Tabular Editor Tools menu.
@@ -45,19 +45,19 @@ Using the Tabular Editor Key in "English phrases" for every Power BI table value
 
 From the table select the column you want to translate and in the properties window scroll down to the Translated Names property.  Type in the name of the column in the "en-US" row.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/KeyColumn.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/KeyInColumn.png)
 
 To localize Titles and Legends you will need to add measures to hold those values.  In your LocalizationTable right click to bring up the drop down menu.  Select Create New and then select Measure.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/CreateNewMeasure.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/CreateNewMeasure.png)
 
 In the table replace the text "New Measure" with the text of the title or legend you want to localize.  Be sure to append the measure name with "Title" or "Legend" as appropriate.  We use this convention to extract the measures for localization.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/NewMeasure.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/NewMeasure.png)
 
 Then key-in the value of the title or legend just like you did for the table column values.  Note:  Be sure to leave off "Title" or "Legend" from the actual string.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/KeyInMeasure.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/KeyInMeasure.png)
 
 # Step 4 Generate Localization .resx files
 Use the GenerateResx.cs script (attached below) to generate .resx files for localization.  Before running the script you will need to modify the CatagoryName and ReportName variables.  Some teams use the CategoryName to help categorize the strings.  You can create a new category name if needed, for example "UIString".  ReportName is the name of your PowerBI report.
@@ -71,7 +71,7 @@ Finally, be sure to update the path in the resxFilename variable to match the de
     
 After you've modified the script, copy it, and paste it in the Advanced Scripting tab in Tabular Editor.  Click on the Run Script button (the green arrow) to run the script.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/RunScript.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/RunScript.png)
 
 Verify the generated .resx files.  Look in the folder you specified in the generate script (the resxFilename variable).  Important Note:  Don’t modify the columns Name & Comment (<Val><![CDATA[???]]></Val> and <Cmt Name="Dev">???</Cmt>) because the Name column holds schema object name, and the Comment column holds the conventional long resource name delimited by “#” to load the translated strings back into Power BI reports.  We used this convention to allow us to hold strings from multiple dashboards in a single .resx resource file.
     
@@ -125,16 +125,16 @@ The attached script below will help you to extract the conventional titles and l
 
 ## Step - C Copy the Clipboard data to Power BI Table "LocalizationTable"
 From the Home menu in Power BI Desktop select the Transform data tab.
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/TransformData.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/TransformData.png)
 
 Select the LocalizationTable and click on the gear icon in the Source step under APPLIED STEPS.
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/PastingLegendsTitles.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/PastingLegendsTitles.png)
 
 In the Create Table dialog box select the table and paste in your copied data from Visual Studio.  Click on the OK button.
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/PastingLegendsTitles2.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/PastingLegendsTitles2.png)
 
 Right click on your column headers to rename them, ObjectName, TranslatedText, and LangId.
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/PastingLegendsTitles3.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/PastingLegendsTitles3.png)
 
 Make sure your table column names are as highhighted below so that Step-D DAX expression works without many changes.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/92d762995486bff9d40e0ca314f5f4690efd8b7a/CopyTable.PNG)
@@ -154,7 +154,7 @@ LocalizationTable[ObjectName] = UserPreferedLanguage & "#TitleMeasureName"
 
 and paste it in the Expression Editor tab window in the Tabular Editor.  Update the #TitleMeasureName to match the value of your measure.
 
-![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/92d762995486bff9d40e0ca314f5f4690efd8b7a/ExpressionEditor.PNG)
+![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/ExpressionEditor.png)
 
 Repeat this process for each translatable measure in your table.
 
