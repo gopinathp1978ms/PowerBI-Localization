@@ -117,6 +117,8 @@ Follow steps "A"-"E" below to extract title keys and paste them to the Power BI 
 ## Step - A Extract Title Keys to Power BI Localization Data Table
 The attached script below will help you to extract the conventional titles and legends into an another resource file “titleandlegend.resx”, so that you can easily copy it from the Visual Studio editor to your Power BI table editor by using universal copy/paste shortcuts.
 
+Before running the script make sure that you have all of your translated .resx files along with the English .resx file in the same folder.  Then copy and paste the ExtractLegendAndTitle.cs script into the Tabular Editor Advanced Scripting tab and update the values of the CategoryName, ReportName, and Translated_FilesFolder variables in your script.  Note:  The Translated_FilesFolder variable should reference the folder which contains all of your .resx files. After you update the variables, click the Run Script button (the green arrow).  The TitleandLegend.resx file will be created and placed in the same folder as your other .resx files.
+
  ## script
 [ExtractLegendAndTitle.cs](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/ExtractLegendAndTitle.cs)
 
