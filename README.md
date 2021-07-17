@@ -135,26 +135,20 @@ Select the LocalizationTable and click on the gear icon in the Source step under
 In the Create Table dialog box select the table and paste in your copied data from Visual Studio.  Click on the OK button.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/PastingLegendsTitles2.png)
 
-Right click on your column headers to rename them, ObjectName, TranslatedText, and LangId.
+You may need to click on the "Undo Headers" button to preserve the first row of data.  After you click on the OK button, right click on your column headers to rename them, Column1 to ObjectName, Column2 to TranslatedText, and Column3 to LangId.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/PastingLegendsTitles3.png)
 
-Make sure your table column names are as highhighted below so that Step-D DAX expression works without many changes.
+Make sure your table column names are the same as shown in highhighted area below so that Step-D DAX expression works without many changes.
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/92d762995486bff9d40e0ca314f5f4690efd8b7a/CopyTable.PNG)
 
 
 ## Step - D Ensure DAX expressions for all title measures  
 For each measure in your table copy the DAX expression below,
 
-#TitleMeasureName = VAR UserPreferedLanguage =
-USERCULTURE()   
-RETURN
-CALCULATE (
-SELECTEDVALUE ( LocalizationTable[TranslatedText] ),
-FILTER ( LocalizationTable, LocalizationTable[LangId] = UserPreferedLanguage ),
-LocalizationTable[ObjectName] = UserPreferedLanguage & "#TitleMeasureName"
-)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VAR UserPreferedLanguage = USERCULTURE()  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETURN CALCULATE ( SELECTEDVALUE ( LocalizationTable[TranslatedText] ), FILTER ( LocalizationTable, LocalizationTable[LangId] = UserPreferedLanguage ), LocalizationTable[ObjectName] = UserPreferedLanguage & "#\<measure name\>" )
 
-and paste it in the Expression Editor tab window in the Tabular Editor.  Update the #TitleMeasureName to match the value of your measure.
+and paste it in the Expression Editor tab window in the Tabular Editor.  Update the #\<measure name\> to match the value of your measure.
 
 ![Alt text](https://github.com/gopinathp1978ms/PowerBI-Localization/blob/main/ExpressionEditor.png)
 
